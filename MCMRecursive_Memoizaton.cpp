@@ -31,7 +31,7 @@ int main()
 {
     
     int arr[]={40,20,30,10,30};
-    int n=5;
+    int n=sizeof(arr)/sizeof(arr[0]);
     vector<vector <int>> tab(n+1,vector<int>(n+1,-1));
     cout<<mcm(arr,1,n-1)<<endl;
     for(int i=0;i<=n;i++)
