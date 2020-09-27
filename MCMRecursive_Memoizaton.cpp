@@ -24,7 +24,7 @@ int mcmMemoization(vector<vector<int>> &tab,int arr[],int i,int j)
         if(temp<min)
             min=temp;
     }
-    cout<<i<<" "<<j<<" "<<min<<endl;
+    //cout<<i<<" "<<j<<" "<<min<<endl;
     return tab[i][j]=min;
 }
 int main()
